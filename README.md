@@ -1,75 +1,58 @@
-# Nuxt 3 Minimal Starter
+# Opt6 Landing Project
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Описание проекта
+Выполненное тестовое задание (лендинг) для компании Opt6 с использованием Nuxt, TypeScript, SCSS.
 
-## Setup
+## Выполненое задание
+Выполненное здание можно посмотреть по адресу: [https://llladno.github.io/opt6/](https://llladno.github.io/opt6/)
 
-Make sure to install the dependencies:
+## Как запустить проект
 
+### Клонирование репозитория
 ```bash
-# npm
+git clone https://github.com/llladno/opt6.git
+cd opt6
+```
+
+### Установка зависисмостей
+```bash
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
+### Запуск проекта
 ```bash
-# npm
 npm run dev
+```
+### Работа с проектом
+Далее необходимо перейти по адресу [http://localhost:3000/opt6/](http://localhost:3000/opt6/)
 
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+## Структура проекта
+```
+├── api                     # Директория для API взаимодействий
+├── assets                  # Директория для статических ресурсов
+│   ├── blocks              # Блоки стилей
+│   ├── common              # Общие стили
+│   ├── icons               # Иконки
+│   ├── img                 # Изображения и SCSS файлы для стилей
+│   │   ├── \_base.scss      # Основные стили
+│   │   ├── \_main.scss      # Главные стили
+│   │   └── \_variables.scss # Переменные для SCSS
+├── components              # Компоненты Vue.js
+│   ├── common              # Общие компоненты
+│   └── layout              # Компоненты для разметки
+├── dist                    # Скомпилированные файлы для деплоя
+├── layouts                 # Шаблоны для страниц
+│   └── default.vue         # Основной шаблон
+├── node_modules            # Папка с установленными npm модулями
+├── pages                   # Страницы приложения
+│   ├── documents           # Страницы для раздела документов
+│   │   └── contacts.vue    # Страница контактов
+│   ├── index.vue           # Главная страница
+│   ├── login.vue           # Страница входа
+│   ├── signup.vue          # Страница регистрации
+│   └── tariffs.vue         # Страница тарифов
 ```
 
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Используемые технологии
+* Nuxt.js
+* TypeScript
+* SCSS
