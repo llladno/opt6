@@ -1,0 +1,1 @@
+import{f as t,o as e,c as a,l as n,n as r,_ as c}from"./BPO1TO6k.js";const l=t({__name:"OButton",props:{propClass:String},setup(s){return(o,p)=>(e(),a("button",{class:r([s.propClass?s.propClass:"default"])},[n(o.$slots,"default",{},void 0,!0)],2))}}),u=c(l,[["__scopeId","data-v-c318454f"]]);export{u as _};
