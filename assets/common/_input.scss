@@ -1,0 +1,16 @@
+.input__place {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  label {
+    font-size: 12px;
+  }
+
+  input{
+    border: $input-border-color;
+    border-radius: 5px;
+    height: 40px;
+    padding: 5px 10px;
+  }
+}

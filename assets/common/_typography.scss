@@ -1,0 +1,21 @@
+h2{
+  font-weight: 700;
+  font-size: 34px;
+}
+
+p{
+  &.ps{
+    font-size: 13px;
+    color: #8F8F8F;
+  }
+}
+
+a {
+  color: $white-color;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.1s;
+  &:hover {
+    opacity: 0.9;
+  }
+}
